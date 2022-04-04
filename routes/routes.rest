@@ -2,4 +2,28 @@ GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/666
+GET http://localhost:3000/subscribers/624b0f5b0016035dc90fa6c8
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+  "name": "Ian Fleming",
+  "subscribedToChannel": "West Ham Utd"
+}
+
+### 
+
+DELETE http://localhost:3000/subscribers/624b14e5813864d4f533c11f
+
+###
+
+PATCH http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+  "name": "Mark Noble",
+  "subscribedToChannel": "Web Dev Simplified"
+}
