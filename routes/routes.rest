@@ -20,7 +20,7 @@ DELETE http://localhost:3000/subscribers/624b14e5813864d4f533c11f
 
 ###
 
-PATCH http://localhost:3000/subscribers
+PATCH http://localhost:3000/subscribers/624b467df40576700e071301
 Content-Type: application/json
 
 {
